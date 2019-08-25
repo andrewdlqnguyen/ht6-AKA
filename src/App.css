@@ -9,7 +9,9 @@
 
 }
 
-header{ 
-  background-image: url("./assets/images/background-lake.jpg");
-  background-color: #cccccc;
+.background-image {
+  background-image: url(./assets/images/background-lake.jpg);
+  background-position: 20%;
+  padding-top: 200px;
+  height: 700px;
 }
