@@ -13,7 +13,7 @@ function App() {
       <NavigationBar/>
       <header className="App-header">
             <Jumbotron className="background-image" >
-              <h1>Finding the best way to discover the right insurance for you.</h1>
+              <h1>The Quickest Way To Discover The Right Insurance For You.</h1>
               <p>
               Quote Estimation Made Simple
               </p>
