@@ -1,0 +1,11 @@
+{
+	"api": {
+		"ht6aka": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY"
+			}
+		}
+	}
+}

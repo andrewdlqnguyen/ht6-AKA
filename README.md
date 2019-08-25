@@ -1,3 +1,13 @@
+Ht6-AKA
+
+amplify libraries required:
+
+npm install @aws-amplify/api @aws-amplify/pubsub
+
+npm install aws-amplify-react
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

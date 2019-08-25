@@ -1,0 +1,14 @@
+{
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "ht6-aka-test-20190824223457-authRole",
+            "UnauthRoleArn": "arn:aws:iam::576297659744:role/ht6-aka-test-20190824223457-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::576297659744:role/ht6-aka-test-20190824223457-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "ht6-aka-test-20190824223457-deployment",
+            "UnauthRoleName": "ht6-aka-test-20190824223457-unauthRole",
+            "StackName": "ht6-aka-test-20190824223457",
+            "StackId": "arn:aws:cloudformation:us-east-1:576297659744:stack/ht6-aka-test-20190824223457/edd8e7a0-c6e0-11e9-badc-0e26c4fc90f2"
+        }
+    }
+}
