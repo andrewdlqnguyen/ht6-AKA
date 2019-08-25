@@ -1,12 +1,38 @@
 import React from 'react';
-import logo from './Logo.jpg';
+import {Button, Jumbotron} from 'react-bootstrap';
+import NavigationBar from './components/NavigationBar/NavigationBar';
+import Quote from './components/Quote/Quote';
+
 import './App.css';
 
 function App() {
+  const [modalShow, setModalShow] = React.useState(false);
+
+  const bgImage = './images/background-lake.jpg';
+  const styles = {
+    container: { backgroundImage: `url(./assets/images/background-lake.jpg)`}
+};
+
   return (
     <div className="App">
+      <NavigationBar/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+            <Jumbotron style={styles.container}>
+              <h1>Finding the best way to discover the right insurance for you.</h1>
+              <p>
+              Quote Estimation Made Simple
+              </p>
+              <p>
+                <Button variant="primary" onClick={() => setModalShow(true)}>
+                Get A Quote
+                </Button>
+          
+                <Quote
+                  show={modalShow}
+                  onHide={() => setModalShow(false)}
+                />
+              </p>
+            </Jumbotron>
       </header>
     </div>
   );
