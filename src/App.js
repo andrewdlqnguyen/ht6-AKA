@@ -8,11 +8,6 @@ import './App.css';
 function App() {
   const [modalShow, setModalShow] = React.useState(false);
 
-  const bgImage = './images/background-lake.jpg';
-  const styles = {
-    container: { backgroundImage: `url(./assets/images/background-lake.jpg)`}
-};
-
   return (
     <div className="App">
       <NavigationBar/>
