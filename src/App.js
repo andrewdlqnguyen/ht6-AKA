@@ -18,7 +18,7 @@ function App() {
               Quote Estimation Made Simple
               </p>
               <p>
-                <Button variant="primary" onClick={() => setModalShow(true)}>
+                <Button className="orange" variant="primary" onClick={() => setModalShow(true)}>
                 Get A Quote
                 </Button>
           

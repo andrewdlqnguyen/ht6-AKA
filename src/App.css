@@ -15,3 +15,12 @@
   padding-top: 200px;
   height: 700px;
 }
+
+.orange {
+  background-color: rgb(223, 90, 2);
+  border: 1px solid white;
+}
+
+.orange:hover {
+  background-color: rgb(224, 114, 40);
+}
